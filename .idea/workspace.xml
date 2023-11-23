@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AreaOfCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Banknote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Consumption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Difference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/DistanceBetweenTwoPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/ExtremelyBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/FuelSpent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/HelloWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/SimpleProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/SimpleSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/TheGreatest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/utils/FormatadorNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/utils/FormaterNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestHelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AreaOfCircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/BanknoteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/ConsumptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/DifferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/DistanceBetweenTwoPointsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/DistanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/ExtremelyBasicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/FuelSpentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/ParametersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SalaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SimpleProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SimpleSumParametrizadoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SimpleSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/TheGreatestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,21 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Cursos/Java/WorkSpace/demo-park-api&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Cursos/Java/WorkSpace/demo-park-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -103,24 +72,8 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuelSpentTest.its_should_not_be_equals (1)">
-    <configuration name="AverageOneTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.models" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.AverageOneTest" />
-      <option name="METHOD_NAME" value="its_should_be_same(double,double,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistanceTest.its_should_be_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimeConversionTest.its_should_be_same">
+    <configuration name="BanknoteTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +82,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.DistanceTest" />
-      <option name="METHOD_NAME" value="its_should_be_true(int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknoteTest" />
+      <option name="METHOD_NAME" value="its_should_be_same(int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumptionTest.its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.ConsumptionTest" />
+      <option name="METHOD_NAME" value="its_should_be_equals(int,double,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuelSpentTest.its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.FuelSpentTest" />
-      <option name="METHOD_NAME" value="its_should_be_equals(int,int,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FuelSpentTest.its_should_not_be_equals (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
@@ -184,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuelSpentTest.its_should_not_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeConversionTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -193,8 +146,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.FuelSpentTest" />
-      <option name="METHOD_NAME" value="its_should_not_be_equals(int,int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.TimeConversionTest" />
+      <option name="METHOD_NAME" value="its_should_be_same(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeConversionTest.its_should_be_same" />
+        <item itemvalue="JUnit.BanknoteTest.its_should_be_same" />
+        <item itemvalue="JUnit.ConsumptionTest.its_should_be_equals" />
         <item itemvalue="JUnit.FuelSpentTest.its_should_not_be_equals (1)" />
         <item itemvalue="JUnit.FuelSpentTest.its_should_be_equals (1)" />
-        <item itemvalue="JUnit.FuelSpentTest.its_should_not_be_equals" />
-        <item itemvalue="JUnit.FuelSpentTest.its_should_be_equals" />
-        <item itemvalue="JUnit.DistanceTest.its_should_be_true" />
       </list>
     </recent_temporary>
   </component>
@@ -218,8 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699729154409</updated>
+      <workItem from="1700773753124" duration="1700000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
