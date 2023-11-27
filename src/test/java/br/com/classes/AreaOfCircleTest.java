@@ -8,7 +8,7 @@ public class AreaOfCircleTest {
     @Test
     public void deve_ser_igual() {
         AreaOfCircle areaOfCircle = new AreaOfCircle(2.00);
-        Assert.assertEquals(areaOfCircle.calculateArea(), "A=12.5664\n");
+        Assert.assertEquals("A=12.5664\n", areaOfCircle.calculateArea());
     }
 
     @Test

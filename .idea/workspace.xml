@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/BanknotesAndCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/SelectionTestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/BanknotesAndCoinsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SelectionTestOneTest.java" afterDir="false" />
+    <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="Corrigido conflito">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/classes/AreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AreaOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/AreaOfCircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AreaOfCircleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,23 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelectionTestOneTest.testItsShouldNotBeEquals">
+  <component name="RunManager" selected="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals">
+    <configuration name="AreaOfCircleTest.deve_ser_igual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.AreaOfCircleTest" />
+      <option name="METHOD_NAME" value="deve_ser_igual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BanknotesAndCoinsTest.test_its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
@@ -79,38 +93,6 @@
       <option name="PACKAGE_NAME" value="br.com.classes" />
       <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
       <option name="METHOD_NAME" value="test_its_should_be_equals(float,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BanknotesAndCoinsTest.test_its_should_not_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
-      <option name="METHOD_NAME" value="test_its_should_not_be_equals(float,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuelSpentTest.its_should_not_be_equals (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.FuelSpentTest" />
-      <option name="METHOD_NAME" value="its_should_not_be_equals(int,int,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheGreatestTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.TheGreatestTest" />
+      <option name="METHOD_NAME" value="its_should_be_same(int,int,int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals" />
+        <item itemvalue="JUnit.TheGreatestTest.its_should_be_same" />
+        <item itemvalue="JUnit.AreaOfCircleTest.deve_ser_igual" />
         <item itemvalue="JUnit.SelectionTestOneTest.testItsShouldNotBeEquals" />
         <item itemvalue="JUnit.SelectionTestOneTest.testItsShouldBeEquals" />
-        <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_not_be_equals" />
-        <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals" />
-        <item itemvalue="JUnit.FuelSpentTest.its_should_not_be_equals (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +166,10 @@
       <updated>1699729154409</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrigido conflito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigido conflito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
