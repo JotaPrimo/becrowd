@@ -7,7 +7,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class FuelSpentTest {
     static Collection<Object[]> dataProvider() {

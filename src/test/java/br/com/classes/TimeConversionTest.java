@@ -30,4 +30,27 @@ class TimeConversionTest {
         // asserção
         Assert.assertEquals(resultExpected, resultadoObetido);
     }
+
+    static Collection<Object[]> dataProviderNotEquals() {
+        return Arrays.asList(new Object[][]{
+                {556, "0:9:17"},
+                {1, "0:0:2"},
+                {140153, "39:55:53"},
+        });
+    }
+
+
+    @ParameterizedTest
+    @MethodSource("dataProviderNotEquals")
+    public void nao_pode_ser_igual(int valor, String resultExpected) {
+        // cenario
+        TimeConversion timeConversion = new TimeConversion(valor);
+
+        // ação
+        String resultadoObetido = timeConversion.calculate();
+
+        // asserção
+        Assert.assertNotEquals(resultExpected, resultadoObetido);
+    }
+
 }

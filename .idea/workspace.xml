@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/TimeConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AgeInDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/BanknotesAndCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AgeInDaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/BanknotesAndCoinsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/FuelSpentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/FuelSpentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Cursos/Java/WorkSpace/demo-park-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Cursos/Java/WorkSpace/demo-park-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -72,8 +75,8 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeConversionTest.its_should_be_same">
-    <configuration name="BanknoteTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BanknotesAndCoinsTest.testSoma (1)">
+    <configuration name="AgeInDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +85,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknoteTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.AgeInDaysTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgeInDaysTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.AgeInDaysTest" />
       <option name="METHOD_NAME" value="its_should_be_same(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumptionTest.its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BanknotesAndCoinsTest.testSoma (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.ConsumptionTest" />
-      <option name="METHOD_NAME" value="its_should_be_equals(int,double,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
+      <option name="METHOD_NAME" value="testSoma(double,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuelSpentTest.its_should_be_equals (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BanknotesAndCoinsTest.testSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -114,30 +132,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.FuelSpentTest" />
-      <option name="METHOD_NAME" value="its_should_be_equals(int,int,double)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
+      <option name="METHOD_NAME" value="testSoma(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuelSpentTest.its_should_not_be_equals (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.FuelSpentTest" />
-      <option name="METHOD_NAME" value="its_should_not_be_equals(int,int,double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeConversionTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeConversionTest.nao_pode_ser_igual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +149,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
       <option name="MAIN_CLASS_NAME" value="br.com.classes.TimeConversionTest" />
-      <option name="METHOD_NAME" value="its_should_be_same(int,java.lang.String)" />
+      <option name="METHOD_NAME" value="nao_pode_ser_igual(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeConversionTest.its_should_be_same" />
-        <item itemvalue="JUnit.BanknoteTest.its_should_be_same" />
-        <item itemvalue="JUnit.ConsumptionTest.its_should_be_equals" />
-        <item itemvalue="JUnit.FuelSpentTest.its_should_not_be_equals (1)" />
-        <item itemvalue="JUnit.FuelSpentTest.its_should_be_equals (1)" />
+        <item itemvalue="JUnit.BanknotesAndCoinsTest.testSoma (1)" />
+        <item itemvalue="JUnit.BanknotesAndCoinsTest.testSoma" />
+        <item itemvalue="JUnit.AgeInDaysTest.its_should_be_same" />
+        <item itemvalue="JUnit.AgeInDaysTest" />
+        <item itemvalue="JUnit.TimeConversionTest.nao_pode_ser_igual" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699729154409</updated>
-      <workItem from="1700773753124" duration="1700000" />
+      <workItem from="1700773753124" duration="6228000" />
+      <workItem from="1700843558511" duration="1634000" />
+      <workItem from="1701101631082" duration="19000" />
     </task>
     <servers />
   </component>
