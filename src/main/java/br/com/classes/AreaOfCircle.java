@@ -3,7 +3,6 @@ package br.com.classes;
 import br.com.utils.FormatadorNumeros;
 
 public class AreaOfCircle {
-
     private final Double PI = 3.14159;
     private Double raio;
 

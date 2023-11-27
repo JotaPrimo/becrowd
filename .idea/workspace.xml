@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AgeInDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/BanknotesAndCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AgeInDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/BanknotesAndCoinsTest.java" afterDir="false" />
+    <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="Corrigido conflito">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/FuelSpentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/FuelSpentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/TimeConversionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/classes/AreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AreaOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/AreaOfCircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AreaOfCircleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +43,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Cursos/Java/WorkSpace/demo-park-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -75,8 +65,8 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BanknotesAndCoinsTest.testSoma (1)">
-    <configuration name="AgeInDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals">
+    <configuration name="AreaOfCircleTest.deve_ser_igual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -85,29 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.AgeInDaysTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AgeInDaysTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.AgeInDaysTest" />
-      <option name="METHOD_NAME" value="its_should_be_same(int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.AreaOfCircleTest" />
+      <option name="METHOD_NAME" value="deve_ser_igual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BanknotesAndCoinsTest.testSoma (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BanknotesAndCoinsTest.test_its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
       <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
-      <option name="METHOD_NAME" value="testSoma(double,java.lang.String)" />
+      <option name="METHOD_NAME" value="test_its_should_be_equals(float,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BanknotesAndCoinsTest.testSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionTestOneTest.testItsShouldBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
-      <option name="METHOD_NAME" value="testSoma(int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.SelectionTestOneTest" />
+      <option name="METHOD_NAME" value="testItsShouldBeEquals(int,int,int,int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeConversionTest.nao_pode_ser_igual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionTestOneTest.testItsShouldNotBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +123,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.TimeConversionTest" />
-      <option name="METHOD_NAME" value="nao_pode_ser_igual(int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.SelectionTestOneTest" />
+      <option name="METHOD_NAME" value="testItsShouldNotBeEquals(int,int,int,int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheGreatestTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.TheGreatestTest" />
+      <option name="METHOD_NAME" value="its_should_be_same(int,int,int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BanknotesAndCoinsTest.testSoma (1)" />
-        <item itemvalue="JUnit.BanknotesAndCoinsTest.testSoma" />
-        <item itemvalue="JUnit.AgeInDaysTest.its_should_be_same" />
-        <item itemvalue="JUnit.AgeInDaysTest" />
-        <item itemvalue="JUnit.TimeConversionTest.nao_pode_ser_igual" />
+        <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals" />
+        <item itemvalue="JUnit.TheGreatestTest.its_should_be_same" />
+        <item itemvalue="JUnit.AreaOfCircleTest.deve_ser_igual" />
+        <item itemvalue="JUnit.SelectionTestOneTest.testItsShouldNotBeEquals" />
+        <item itemvalue="JUnit.SelectionTestOneTest.testItsShouldBeEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699729154409</updated>
-      <workItem from="1700773753124" duration="6228000" />
-      <workItem from="1700843558511" duration="1634000" />
-      <workItem from="1701101631082" duration="19000" />
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrigido conflito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigido conflito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -203,6 +192,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/classes/BanknotesAndCoins.java</url>
+          <line>100</line>
+          <properties class="br.com.classes.BanknotesAndCoins" method="returnQtdMoedasVinteCincoCentavos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

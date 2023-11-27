@@ -1,55 +1,86 @@
 package br.com.classes;
 
 public class BanknotesAndCoins {
-    private double valor;
-    private int quantidade_notas;
+    private float valor;
 
-    private Banknote banknote;
-
-    public BanknotesAndCoins(double valor) {
+    public BanknotesAndCoins(float valor) {
         this.valor = valor;
-        banknote = new Banknote((int) valor);
     }
 
-    public void calculate() {
-        System.out.println("NOTAS:");
-        System.out.println(banknote.returnQtdNotasCem() + " nota(s) de R$ 100,00");
-        System.out.println(banknote.returnQtdNotasCinquenta() + " nota(s) de R$ 50,00");
-        System.out.println(banknote.returnQtdNotasVinte() + " nota(s) de R$ 20,00");
-        System.out.println(banknote.returnQtdNotas10() + " nota(s) de R$ 10,00");
-        System.out.println(banknote.returnQtdNotas5() + " nota(s) de R$ 5,00");
-        System.out.println(banknote.returnQtdNotas2() + " nota(s) de R$ 2,00");
-        // transformando em centavos o resto
-        valor = valor * 100;
-
-        System.out.println(returnQtdMoedasUmReal() + " moeda(s) de R$ 1.00");
-        System.out.println(returnQtdMoedasCinquentaCentavos() + " moeda(s) de R$ 0.50");
-        System.out.println(returnQtdMoedasVinteCincoCentavos() + " moeda(s) de R$ 0.25");
-        System.out.println(returnQtdMoedasDezCentavos() + " moeda(s) de R$ 0.10");
-        System.out.println(returnQtdMoedasCincoCentavos() + " moeda(s) de R$ 0.05");
-        System.out.println(quantidade_notas + " moeda(s) de R$ 0.01");
-    }
-
-    public String returnResultado() {
+    public String calculate() {
         return
-                this.valor + "\n" +
-                        banknote.returnQtdNotasCem() + " nota(s) de R$ 100.00\n"
-                        + banknote.returnQtdNotasCinquenta() + " nota(s) de R$ 50.00\n"
-                        + banknote.returnQtdNotasVinte() + " nota(s) de R$ 20.00\n"
-                        + banknote.returnQtdNotas10() + " nota(s) de R$ 10.00\n"
-                        + banknote.returnQtdNotas5() + " nota(s) de R$ 5.00\n"
-                        + banknote.returnQtdNotas2() + " nota(s) de R$ 2.00\n"
+                "NOTAS:\n" +
+                        returnQtdNotasCem() + " nota(s) de R$ 100.00\n"
+                        + returnQtdNotasCinquenta() + " nota(s) de R$ 50.00\n"
+                        + returnQtdNotasVinte() + " nota(s) de R$ 20.00\n"
+                        + returnQtdNotas10() + " nota(s) de R$ 10.00\n"
+                        + returnQtdNotas5() + " nota(s) de R$ 5.00\n"
+                        + returnQtdNotas2() + " nota(s) de R$ 2.00\n"
                         + "MOEDAS:\n"
                         + returnQtdMoedasUmReal() + " moeda(s) de R$ 1.00\n"
                         + returnQtdMoedasCinquentaCentavos() + " moeda(s) de R$ 0.50\n"
                         + returnQtdMoedasVinteCincoCentavos() + " moeda(s) de R$ 0.25\n"
                         + returnQtdMoedasDezCentavos() + " moeda(s) de R$ 0.10\n"
                         + returnQtdMoedasCincoCentavos() + " moeda(s) de R$ 0.05\n"
-                        + quantidade_notas + " moeda(s) de R$ 0.01\n";
+                        + returnQtdMoedasUmCentavo() + " moeda(s) de R$ 0.01";
+    }
+
+    public int returnQtdNotasCem() {
+        if (valor >= 100) {
+            int notasCem = (int) Math.floor(this.valor / 100);
+            this.valor %= 100;
+            return notasCem;
+        }
+        return 0;
+    }
+
+    public int returnQtdNotasCinquenta() {
+        if (valor >= 50) {
+            int notas50 = (int) Math.floor(this.valor / 50);
+            this.valor %= 50;
+            return notas50;
+        }
+        return 0;
+    }
+
+    public int returnQtdNotasVinte() {
+        if (valor >= 20) {
+            int notas20 = (int) Math.floor(this.valor / 20);
+            this.valor %= 20;
+            return notas20;
+        }
+        return 0;
+    }
+
+    public int returnQtdNotas10() {
+        if (valor >= 10) {
+            int notas10 = (int) Math.floor(this.valor / 10);
+            this.valor %= 10;
+            return notas10;
+        }
+        return 0;
+    }
+
+    public int returnQtdNotas5() {
+        if (valor >= 5) {
+            int notas5 = (int) Math.floor(this.valor / 5);
+            this.valor %= 5;
+            return notas5;
+        }
+        return 0;
+    }
+
+    public int returnQtdNotas2() {
+        if (valor >= 2) {
+            int notas2 = (int) Math.floor(this.valor / 2);
+            this.valor %= 2;
+            return notas2;
+        }
+        return 0;
     }
 
     public int returnQtdMoedasUmReal() {
-        valor = valor * 100;
+        this.valor *= 100;
         if (valor >= 100) {
             int moedasUmReal = (int) Math.floor(this.valor / 100);
             this.valor %= 100;
@@ -60,18 +91,18 @@ public class BanknotesAndCoins {
 
     public int returnQtdMoedasCinquentaCentavos() {
         if (valor >= 50) {
-            int cinquentaCentavos = (int) Math.floor(this.valor / 50);
+            int moedasCinquentaCentavos = (int) Math.floor(this.valor / 50);
             this.valor %= 50;
-            return cinquentaCentavos;
+            return moedasCinquentaCentavos;
         }
         return 0;
     }
 
     public int returnQtdMoedasVinteCincoCentavos() {
         if (valor >= 25) {
-            int vinteCincoCentavos = (int) Math.floor(this.valor / 25);
+            int moedasVinteCincoCentavos = (int) Math.floor(this.valor / 25);
             this.valor %= 25;
-            return vinteCincoCentavos;
+            return moedasVinteCincoCentavos;
         }
         return 0;
     }
@@ -94,5 +125,16 @@ public class BanknotesAndCoins {
         return 0;
     }
 
+    public int returnQtdMoedasUmCentavo() {
+        return Math.round(this.valor);
+    }
+
+    public float getValor() {
+        return valor;
+    }
+
+    public void setValor(float valor) {
+        this.valor = valor;
+    }
 
 }
