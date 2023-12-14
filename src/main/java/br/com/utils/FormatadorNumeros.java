@@ -58,4 +58,9 @@ public class FormatadorNumeros {
         return  Double.parseDouble(decimalFormat.format(numero));
     }
 
+    public static String formatarDuasCasasDecimais(double numero) {
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        return decimalFormat.format(numero).replace(',', '.');
+    }
+
 }
