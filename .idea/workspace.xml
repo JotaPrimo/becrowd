@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="Corrigido conflito">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/IntervalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SnackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/utils/FormatadorNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/utils/FormatadorNumeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +66,16 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntervalTest">
-    <configuration name="AreaOfCircleTest.deve_ser_igual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.Main" />
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="PATTERN" value="br.com.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.AreaOfCircleTest" />
-      <option name="METHOD_NAME" value="deve_ser_igual" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.IntervalTest" />
         <item itemvalue="JUnit.SnackTest" />
         <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals" />
         <item itemvalue="JUnit.TheGreatestTest.its_should_be_same" />
-        <item itemvalue="JUnit.AreaOfCircleTest.deve_ser_igual" />
       </list>
     </recent_temporary>
   </component>
