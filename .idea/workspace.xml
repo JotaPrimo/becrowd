@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="Corrigido conflito">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/CoordinatesOfPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/SimpleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/CoordinatesOfPointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SimpleSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SimpleSortTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.junit.Main" />
       <module name="becrowd" />
@@ -80,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BanknotesAndCoinsTest.test_its_should_be_equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoordinatesOfPointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
         <pattern>
@@ -89,9 +93,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.BanknotesAndCoinsTest" />
-      <option name="METHOD_NAME" value="test_its_should_be_equals(float,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.CoordinatesOfPointTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +109,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.classes" />
       <option name="MAIN_CLASS_NAME" value="br.com.classes.IntervalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.SimpleSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,29 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheGreatestTest.its_should_be_same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.TheGreatestTest" />
-      <option name="METHOD_NAME" value="its_should_be_same(int,int,int,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleSortTest" />
+        <item itemvalue="JUnit.CoordinatesOfPointTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.IntervalTest" />
         <item itemvalue="JUnit.SnackTest" />
-        <item itemvalue="JUnit.BanknotesAndCoinsTest.test_its_should_be_equals" />
-        <item itemvalue="JUnit.TheGreatestTest.its_should_be_same" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,8 @@
 package br.com.classes;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class AverageThree {
     private double N1;
     private double N2;
@@ -61,11 +64,16 @@ public class AverageThree {
             System.out.println("Media final: " + getMedia());
         } else {
             System.out.println("Aluno reprovado.");
-            System.out.println("Media final: " + getMedia());
+            // System.out.println("Media final: " + getMedia());
         }
 
     }
 
+    public double formatarUmaCasaDecimal(double numero) {
+        DecimalFormat decimalFormat = new DecimalFormat("#.#");
+        decimalFormat.setRoundingMode(RoundingMode.DOWN);
+        return Double.parseDouble(decimalFormat.format(numero));
+    }
     public double getN1() {
         return N1;
     }
@@ -103,7 +111,7 @@ public class AverageThree {
     }
 
     public void setNotaExame(double notaExame) {
-        this.notaExame = notaExame;
+        this.notaExame = formatarUmaCasaDecimal(notaExame);
     }
 
     public double getMedia() {
@@ -111,6 +119,6 @@ public class AverageThree {
     }
 
     public void setMedia(double media) {
-        this.media = media;
+        this.media = formatarUmaCasaDecimal(media);
     }
 }
