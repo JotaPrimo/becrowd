@@ -2,24 +2,19 @@ package br.com.junit;
 
 
 import br.com.classes.*;
-
+import java.io.IOException;
 import java.util.Scanner;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
 
-//        int a = leitor.nextInt();
-//        int b = leitor.nextInt();
-//        int c = leitor.nextInt();
+        double x = leitor.nextDouble();
+        double y = leitor.nextDouble();
 
-        int a = 7;
-        int b = 21;
-        int c = -14;
-
-        SimpleSort simpleSort = new SimpleSort(a, b, c);
-        simpleSort.processar();
+        CoordinatesOfPoint coordinatesOfPoint = new CoordinatesOfPoint(x, y);
+        System.out.println(coordinatesOfPoint.returnQuadrante());
     }
 
 }

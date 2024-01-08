@@ -6,84 +6,76 @@ public class SimpleSort {
     private int a;
     private int b;
     private int c;
-    private ArrayList<Integer> ordemOriginal = new ArrayList<>();
-    private ArrayList<Integer> ordemCrescente = new ArrayList<>();
 
-    public SimpleSort(Integer a, Integer b, Integer c) {
+    private ArrayList<String> ordemOriginal = new ArrayList<>();
+    private ArrayList<String> ordemCrescente = new ArrayList<>();
+
+    public SimpleSort(int a, int b, int c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
-    public void processar() {
-        salvandoOrdemOriginal();
-        salvandoOrdenCrescente();
+    public String processar() {
+        this.guardarOrdemOriginal();
 
-        for (int i = 0; i < this.ordemCrescente.size(); i++) {
-            System.out.println(this.ordemCrescente.get(i));
-        }
-        System.out.println();
+        this.ordemCrescente.add(String.valueOf(retornaMenorNumero()) + "\n");
+        this.ordemCrescente.add(String.valueOf(retornaNumeroMeio()) + "\n");
+        this.ordemCrescente.add(String.valueOf(retornaMaiorNumero()) + "\n");
 
-        for (int i = 0; i < this.ordemOriginal.size(); i++) {
-            System.out.println(this.ordemOriginal.get(i));
-        }
+        return this.ordemCrescente + "\n" + this.ordemOriginal.toString();
     }
 
-    public void salvandoOrdenCrescente() {
-        this.ordemCrescente.add(definirMenorNumero());
-        this.ordemCrescente.add(definirMeio());
-        this.ordemCrescente.add(definirMaiorNumero());
-    }
-    public int definirMenorNumero() {
-        int menor = getA();
+    public int retornaMenorNumero() {
+        int menor = a;
 
-        if (getB() < menor) {
-            menor = getB();
+        if (this.b < menor) {
+            menor = b;
         }
 
-        if (getC() < menor) {
-            menor = getC();
+        if (this.c < menor) {
+            menor = c;
         }
+
         return menor;
     }
 
-    public int definirMaiorNumero() {
-        int maior = getA();
+    public int retornaMaiorNumero() {
+        int maior = a;
 
-        if (getB() > maior) {
-            maior = getB();
+        if (this.b > maior) {
+            maior = b;
         }
 
-        if (getC() > maior) {
-            maior = getC();
+        if (this.c > maior) {
+            maior = c;
         }
+
         return maior;
     }
 
-    public int definirMeio() {
-        int menor = definirMenorNumero();
-        int maior = definirMaiorNumero();
-        int meio = 0;
+    public int retornaNumeroMeio() {
+        int primeiro = retornaMenorNumero();
+        int ultimo = retornaMaiorNumero();
 
-        if (getA() > menor && getA() < maior) {
-            meio =  getA();
+        if (primeiro < this.a && ultimo > this.a) {
+            return this.a;
         }
 
-        if (getB() > menor && getB() < maior) {
-            meio =  getB();
+        if (primeiro > this.b && ultimo < this.b) {
+            return this.b;
         }
 
-        if (getC() > menor && getC() < maior) {
-            meio =  getC();
+        if (primeiro > this.c && ultimo < this.c) {
+            return this.c;
         }
-
-        return meio;
+        throw new RuntimeException("Deu algum erro");
     }
 
-    public void salvandoOrdemOriginal() {
-        this.ordemOriginal.add(getA());
-        this.ordemOriginal.add(getB());
-        this.ordemOriginal.add(getC());
+    public void guardarOrdemOriginal() {
+        this.ordemOriginal.add(String.valueOf(this.getA()) + "\n");
+        this.ordemOriginal.add(String.valueOf(this.getB()) + "\n");
+        this.ordemOriginal.add(String.valueOf(this.getC()) + "\n");
     }
 
     public int getA() {
