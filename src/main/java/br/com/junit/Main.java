@@ -10,12 +10,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
 
-        double A = leitor.nextDouble();
-        double B = leitor.nextDouble();
-        double C = leitor.nextDouble();
+        int hora_inicio = leitor.nextInt();
+        int hora_fim = leitor.nextInt();
 
-        TriangleType triangleType = new TriangleType(A, B, C);
-        System.out.print(triangleType.calculate());
+        GameTime gameTime = new GameTime(hora_inicio, hora_fim);
+        System.out.print(gameTime.processar());
     }
 
 }

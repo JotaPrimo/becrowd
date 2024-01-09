@@ -38,32 +38,32 @@ public class TriangleType {
     }
 
     public String calculate() {
-        String resposta = "";
+        StringBuilder resposta = new StringBuilder();
         if (!isTriangulo()) {
-            resposta = "NAO FORMA TRIANGULO\n";
+            resposta.append("NAO FORMA TRIANGULO\n");
         } else {
 
             if (isTrianguloObtusangulo()) {
-                resposta += "TRIANGULO OBTUSANGULO\n";
+                resposta.append("TRIANGULO OBTUSANGULO\n");
             }
 
             if (isTrianguloAcutangulo()) {
-                resposta += "TRIANGULO ACUTANGULO\n";
+                resposta.append("TRIANGULO ACUTANGULO\n");
             }
 
             if (isTrianguloEquilatero()) {
-                resposta += "TRIANGULO EQUILATERO\n";
+                resposta.append("TRIANGULO EQUILATERO\n");
             }
 
             if (isTrianguloRetangulo()) {
-                resposta += "TRIANGULO RETANGULO\n";
+                resposta.append("TRIANGULO RETANGULO\n");
             }
 
             if (isTrianguloIsoceles()) {
-                resposta += "TRIANGULO ISOSCELES\n";
+                resposta.append("TRIANGULO ISOSCELES\n");
             }
         }
-        return resposta;
+        return resposta.toString();
     }
 
     public boolean isTriangulo() {
