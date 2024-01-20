@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af72aec8-d08e-4f03-8702-79860d04dfe0" name="Changes" comment="Corrigido conflito">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/CoordinatesOfPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/SimpleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/CoordinatesOfPointTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/SimpleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/Multiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/MultiplesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/classes/AverageThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/junit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/classes/AverageThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <recent name="br.com.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleSortTest">
+  <component name="RunManager" selected="JUnit.MultiplesTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.junit.Main" />
       <module name="becrowd" />
@@ -114,6 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="becrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.classes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.classes.MultiplesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="becrowd" />
       <extension name="coverage">
@@ -129,28 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="becrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.classes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.classes.SnackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplesTest" />
         <item itemvalue="JUnit.SimpleSortTest" />
         <item itemvalue="JUnit.CoordinatesOfPointTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.IntervalTest" />
-        <item itemvalue="JUnit.SnackTest" />
       </list>
     </recent_temporary>
   </component>
